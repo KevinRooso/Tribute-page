@@ -1,0 +1,58 @@
+body{
+	background-color: rgba(245,245,245,0.5); 
+}
+
+header{
+	display: block;
+	text-align: center;
+	margin:0px auto;
+}
+
+#main{
+	font-family: Calibri;
+	font-size: 1.1em;
+	margin: 2%;
+}
+
+#title{
+	font-family: Cambria;
+	font-size: 2.2em;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#title:hover{
+	animation-name: border;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes border{
+	100%{
+		border-top: 3px solid #d2b48c;
+		border-bottom: 3px solid #d2b48c;\	
+	}
+}
+
+#img-div{
+	display: block;
+	padding: 10px;
+	background-color: rgba(255,255,255);
+}
+
+#image{
+	display: block;
+	max-width: 100%;
+	margin:0px auto;
+}
+
+#img-caption{
+	margin: 10px 0px 5px 0px;
+	text-align: center;
+}
+
+footer{
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+}
